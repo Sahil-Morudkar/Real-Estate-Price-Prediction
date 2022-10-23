@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/about.css" >
+    <title></title>
+</head>
+<body>
+<main id="main">
+  <h1 id="title">About Us</h1>
+  <p>What do we do?</p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="{{ url_for('static', filename='Images/House.jpg') }}"
+      alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists"
+    />
+    <figcaption id="img-caption">
+        <b> Prediction of Houses all over India </b>
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <p> Real Estate Property is not only the basic need of a man but today it also represents the riches
+and prestige of a person. Investment in real estate generally seems to be profitable because their
+property values do not decline rapidly. Changes in the real estate price can affect various
+household investors, bankers, policy makers and many. Sales forecasting has always been a very
+significant area to concentrate upon. Manual infestation of being able to predict House Prices
+could lead to drastic errors leading to poor management of the organization, and most
+importantly would be time consuming. <b> This webapp helps you do all of that, Just enter your requirements and get to know the price of the house you're looking for. </b>
+    </p>
+
+    <h2> The following values in the dataset will give you a clear insight </h2>
+    <h3> Under_Construction : 1 = It is Under Construction, 0= It is not Under Construction</h3>
+    <h3> Rera Approved : 1 = It is Rera Approved, 0 = It is not Rera Approved</h3>
+    <h3> Bedroom_Hall_Kitchen or Room_Kitchen : 1 = BHK , 0 = RK</h3>
+    <h3> </h3>
+
+  </section>
+
+
+</main>
+
+</body>
+</html>
